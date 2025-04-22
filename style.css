@@ -1,0 +1,224 @@
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Optima', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  font-weight: normal;
+  text-align: center;
+}
+
+.main h2 {
+  font-size: 24px;
+  color: #555;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* ここから自分で考えた */
+
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #ad9f22;
+  color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+.header-container {
+  padding: 40px;
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.header-left h3 {
+  float: left;
+  letter-spacing: 5px;
+  
+}
+
+.header-right {
+  float: right;
+}
+
+header li {
+  float: left;
+  padding-left: 60px;
+  line-height: 40px;
+
+}
+
+.top-wrapper img {
+  width:100%
+}
+
+
+
+.main {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2c3e50;
+  padding-bottom: 60px;
+}
+
+
+.contents {
+  width: 33%;
+  padding: 0px 0px 10px 17px;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.me, .favorite {
+  background-color: rgba(185, 178, 108, 0.4);
+}
+
+.work {
+  background-color: rgba(95, 78, 52, 0.1);
+}
+
+
+.skills-container {
+  border-bottom: 1px solid #2c3e50;
+  padding-bottom: 60px;
+}
+
+.skill {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.skill img {
+  padding-right: 50px;
+  height:250px;
+  width: auto;
+  align-self: flex-start;
+}
+
+
+
+.skills li {
+  padding: 10px 70px;
+  margin: 15px 0;
+  justify-content: center;
+  display: block;
+  border: 1px solid #2c3e50;
+
+}
+
+.contact-container {
+  max-width: 800px;
+  margin:0 auto;
+  padding: 40px;
+  
+}
+
+.contact-container input, .contact-container textarea {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #2c3e50;
+  margin:0 auto;
+  display: block;
+  margin-top: 10px;
+}
+
+
+.contact-container p {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin:0 auto;
+  margin-top: 10px;
+
+
+}
+.txt {
+  font-size: 14px;
+  height: 25px;
+}
+
+textarea {
+  height: 100px
+}
+
+
+
+.submit {
+  display:block;
+  font-family: 'Optima', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  padding: 5px 0;
+  
+}
+
+.submit:hover {
+  background-color:rgba(185, 178, 108, 0.4);
+  outline: none;
+  border: 1px solid #2c3e50;
+}
+
+.submit:active {
+  background-color:rgba(185, 178, 108, 0.7);
+  outline: none;
+  border: 1px solid #2c3e50;
+}
+
+
+
+
+
+
+footer {
+  background-color: #f5f5ed;
+  height: 70px;
+  margin-top: 30px;
+  border-top: 1px solid #2c3e50;
+}
+
+.footer-container {
+  width: 1150px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.footer-left p{
+  font-size: 13px;
+  line-height: 5px;
+  color:#2c3e50
+}
+
+.footer-right a{
+  display: inline-block;
+  padding-left: 20px;
+  text-decoration: none;
+  color:#2c3e50
+}
+
+.footer-right a:hover {
+  color: #ad9f22;
+}
+
